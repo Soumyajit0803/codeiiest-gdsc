@@ -6,6 +6,7 @@ import Home from "./screens/Home/Home";
 // import Chapters from "./screens/Chapters/Chapters";
 // import About from "./screens/AboutUs/about";
 // import Coder from "./components/Codercard/coder";
+import Events from "./screens/Events/Events";
 import ComingSoon from "./screens/comingsoon/ComingSoon";
 
 const AllRoutes = () => {
@@ -24,6 +25,7 @@ const AllRoutes = () => {
                 <Route path="" element={<ComingSoon />}></Route>
             </Route>
             <Route exact path="/about" element={<ComingSoon />}></Route>
+            <Route exact path="/events" element={<Events />}></Route>
             <Route exact path="/leaderboard" element={<ComingSoon />}></Route>
         </Routes>
     );
